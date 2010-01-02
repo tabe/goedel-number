@@ -1,0 +1,18 @@
+An R6RS implementation of "A Space-efficient Goedel numbering with Chinese Remainder Theorem"
+
+== License
+
+New BSD License
+
+== Notes
+
+* Tests needs Ypsilon [1] with an external library (xunit) [2];
+  Run `YPSILON_SITELIB="path of (xunit)" make test'.
+
+== References
+
+[0] Chang, J. C., Tsai, S. C., and Chen, R. J. (2002)
+    "A Space-efficient Goedel Numbering with Chinese Remainder Theorem,"
+    Proceedings of the 19th Workshop on Combinatorial Mathematics and Computation Theory, March, pp. 192-195.
+[1] http://code.google.com/p/ypsilon/
+[2] http://github.com/tabe/xunit/
